@@ -1,0 +1,604 @@
+.conteneur {
+    height: 100%;
+    padding: 0%; /* Aucun espace de remplissage autour du corps */
+    margin: 0%; /* Aucune marge autour du corps */
+    font-family: sans-serif; /* Police de caractères par défaut */
+}
+    #section-1 {
+        height: 15%;
+        background-color: white;
+        display: flex;
+        justify-content: space-between; /* Centrage horizontal et vertical */           
+        align-items: center;
+        border: #274c5b;
+    }
+    .logo {
+        width: 20%;
+        height:  auto;
+        display: flex;
+        justify-content:center; 
+        align-items: center;
+    }
+    .logo img {
+        width: 60%;
+        height: auto;
+    }
+    .Organick {
+        font-size: 40px;
+        font-weight: bold;
+        color: #274c5b;
+    }
+    .menu {
+        width: 50%; /* Largeur de 40% */
+        height: 0%; /* Hauteur de 0% */      
+    }
+    
+    /* Styles pour les listes à l'intérieur de la classe "menu" */
+    .menu ul {
+        list-style-type: none; /* Suppression des puces de liste */
+        padding: 0; /* Aucun padding */
+        margin: 0; /* Aucune marge */
+        display: flex; /* Utilisation de Flexbox */
+        justify-content: center; /* Alignement horizontal au centre */
+        align-items: center; /* Alignement vertical au centre */
+    }
+    
+    /* Styles pour les éléments de liste à l'intérieur de la classe "menu" */
+    .menu ul li {
+        display: inline; /* Affichage en ligne */
+        margin-right: 5%; /* Marge à droite de 5% */
+    }
+    
+    /* Styles pour les liens à l'intérieur des éléments de liste à l'intérieur de la classe "menu" */
+    .menu ul li a {
+        color: #274c5b; /* Couleur du texte noire */
+        text-decoration: none; /* Suppression du soulignement */
+        font-weight: bold; /* Police en gras */
+        font-size: 20px;
+    }
+    
+    /* Styles pour les liens au survol à l'intérieur des éléments de liste à l'intérieur de la classe "menu" */
+    .menu ul li a:hover {
+        color: #efd372; /* Changement de couleur au survol */
+    }
+
+
+    #section-2 {
+        height: 75vh; 
+        background-image: url("fruits.jpeg");
+        background-position: center; 
+        margin-top: 3%;
+    }
+    
+    .aliment {
+        width: 20%;   
+        padding-top: 10%;
+        padding-left: 25%;
+    }
+
+    .vert {
+        font-family: Yellowtail;
+        color: #68A47F;
+        font-size: 30px;
+    }
+
+    .saine {
+        font-size: 60px;
+        font-weight: bold;
+        color: #274C5B;
+    }
+    .boutton {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%; 
+        border-radius: 10%;
+        margin-top: 10%;
+        cursor: pointer; 
+        background-color: #274c5b;
+    }
+
+    .boutton:hover {
+        background-color: #EFD372;
+    }
+
+    .decouvrir {
+        color: white;
+        font-size: 30px;    
+        font-weight: bold; 
+    }
+    .boutton:hover .decouvrir  {
+        color: #274c5b; 
+    }
+
+    .fleche {
+        width: 20%; 
+        height: aute; 
+        border-radius: 50%;
+        background-color: white ; 
+
+    }
+    .fleche img {
+        width: 100%;
+        height:  auto;
+    }
+
+    #section-3 {
+        width:  80%;    
+        height: 60vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-block:  5%;  
+        }   
+    
+    .rose {
+        width: 46%;
+        height:  63%;
+        background-image: url("banane.jpg");
+        border-radius: 5%;
+    }
+
+    .gris {
+        width: 46%;
+        height:  63%;
+        background-image: url("Image-pair.png");
+        border-radius: 5%;
+    }
+
+    .legume {
+        width: 40%;
+        font-size: 38px;
+        font-weight: bold;
+        color: #274C5B;;
+    }
+    
+    .jardin {
+        width: 40%;
+        font-size: 40px;    
+        font-weight: bold;
+        color: white;
+    }
+
+    .paire {
+        padding-top: 16%;
+        padding-left: 6%;
+    }
+    
+    #section-4 {
+        width: 100%;
+        height: 90vh;
+        background-color: #F9F8F8;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+
+    .nous-1, .nous-2 {
+        width: 70%;
+    }
+
+    .agriculteur {
+        font-size: 38px;
+        font-weight: bold;
+        color: #274C5B;
+    }   
+
+    #bio {
+        width: 80%;
+        height: 10vh;
+        display:  flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+    }
+
+    .icone-1 {
+        width: 15%; 
+        height: 7vh;
+        text-align: center;
+        background-color: white;
+    }
+    .icone-1 img {
+        width: 50%;  
+    }
+
+    .qualite {
+        margin-left: 2%;
+    }
+    .unik {
+        font-size: 20px;
+        font-weight: bold;
+    } 
+    
+    .icone-2 {
+        width: 15%; 
+        height: 7vh;
+        text-align: center;
+        background-color: white;
+    }
+    .icone-2 img {
+        width: 50%;     
+    }
+
+    .boutton-propos {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1% 1%; 
+        border-radius: 10%;
+        margin-top: 5%;
+        cursor: pointer; 
+        background-color: #274C5B;
+    }
+    .boutton-propos:hover {
+        background-color:  #EFD372;
+    }
+
+    .propos a {
+        color:white;;
+        font-size: 20px;    
+        font-weight: bold;
+        text-decoration: none; /* Suppression du soulignement */
+    }
+    .boutton-propos:hover a {
+        color: #274C5B;
+    }
+
+    #section-5 {
+      
+        height: 1265px;
+        margin: 0;
+        padding-inline: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("Image.jpg");
+    }  
+
+    .avis {
+        width: 80%;
+        height: auto;
+        margin-left: 5%;
+        padding-bottom: 35%;
+    }
+
+    .client {
+        height: 100%;
+        border-bottom: #F1F1F1 solid 5px;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;          
+    }
+
+    .temoignage {
+        text-align: center;
+    }
+
+    .reponse {
+        width:  90%;
+        height:  80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .profil {
+        width: 15%;
+        height: 15%;
+        
+        
+    }
+    .profil img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .note {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    .commentaire, .etoile {
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .sara {
+        width: auto;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .taylor, .Consommatrice {
+        text-align: center; 
+    }
+
+    .point-3 {
+        width: 5%;
+        height: 10%;
+    }
+    .point-3 img {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+
+    .produit {
+        height: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        padding-top: 5%;
+    }
+
+    .espace-blanc {
+        width: 20%;
+        height: 80%;
+        background-color: #7EB693;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pourcentage {
+        width:  90%;
+        height: 90%;
+        background-color: #F1F1F1;
+        border-radius: 50%;
+        border: white  solid 5px;
+        
+    }
+
+    .nombre, .dessous {
+        text-align: center;
+        
+    }
+
+    .nombre  {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 35%;
+        }
+
+    #section-6 {
+        height: 931px;
+    }
+
+
+    .Magasin {
+        width: 30%;   
+        background-color: white;
+        padding: 5%;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+        position: absolute;
+        top: 417%;
+        left: 47.5%;
+    }
+
+    .gras {
+        margin-top: 5%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+    #section-7 {
+        height: 800px;
+        background-color: #EFF6F1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0%;
+    }
+
+    .jus, .AB, .biscuit {
+        width: 33%;
+        height: 73%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .jus {
+        background-image: url("jus.jpg");
+    }
+    .AB {
+        background-image: url("bio.jpg");
+    }
+    .biscuit {
+        background-image: url("biscuit.jpg");
+    }
+
+    .centre {
+        width: auto;
+        background-color: white;
+        padding: 5%;
+        border-radius: 10%;
+    }
+
+
+    #section-8 {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inscription {
+        width: 70%;
+        height: 64%;
+        background-image: url("Background.png");
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 3%;
+
+    }
+
+    .letter {
+        width: 60%;
+        height: auto;
+        color: #FFFFFF;
+    }
+
+    .mail {
+        width: 30%;
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mail input {
+        width: 50%;
+        padding-inline: 5%;
+        border-radius: 10%;
+        border: #FFFFFF solid thin;
+    }
+
+    .inscrire {
+        width: 35%;
+        height: 80%;
+        text-align: center;
+        background-color: #274C5B;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 3.5%;
+        border-radius: 10%;
+        transition: background-color 0.3s; /* Ajout de la transition */
+    }
+    
+    .inscrire:hover {
+        background-color: #EFD372;
+    }
+    
+    .inscrire a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .inscrire:hover a { /* Changement de couleur des liens au survol du conteneur */
+        color: #274C5B;
+    }
+    
+
+    #section-9 {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .information {
+        width: 50%;
+        height: 80%;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .parti-contact {
+        width: 50%;
+        height: 80%;
+        border-right: #F1F1F1 solid 10px;   
+    }
+
+    .info {
+        width: 80%;
+        text-align: right;
+    }
+    .contact {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+
+    .titre {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 8%;
+    }
+    .E {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .compte {
+        width: 30%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .L-O {
+        width: 65%;
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+    .petit-logo {
+        width: 25%;
+        height: 65%;
+    }
+    .petit-logo IMG {
+        width: 100%;
+        height: 100%;
+    }
+    .petit-Organick {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .petit-bas {
+        width: 80%;
+        height: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20%;
+    }
+    .bas {
+        width: 20%;
+        height: 80%;
+        background-color: #EFF6F1;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pied-de-page {
+        width: 100%;
+        border-top: #F1F1F1 solid 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Copyright {
+    font-size: 25px;
+    }

@@ -1,0 +1,248 @@
+.conteneur {
+    height: 100%;
+    padding: 0%; /* Aucun espace de remplissage autour du corps */
+    margin: 0%; /* Aucune marge autour du corps */
+    font-family: sans-serif; /* Police de caractères par défaut */
+}
+    #section-1 {
+        height: 15%;
+        background-color: white;
+        display: flex;
+        justify-content: space-between; /* Centrage horizontal et vertical */           
+        align-items: center;
+        border: #274c5b;
+    }
+    .logo {
+        width: 20%;
+        height:  auto;
+        display: flex;
+        justify-content:center; 
+        align-items: center;
+    }
+    .logo img {
+        width: 60%;
+        height: auto;
+    }
+    .Organick {
+        font-size: 40px;
+        font-weight: bold;
+        color: #274c5b;
+    }
+    .menu {
+        width: 50%; /* Largeur de 40% */
+        height: 0%; /* Hauteur de 0% */      
+    }
+    
+    /* Styles pour les listes à l'intérieur de la classe "menu" */
+    .menu ul {
+        list-style-type: none; /* Suppression des puces de liste */
+        padding: 0; /* Aucun padding */
+        margin: 0; /* Aucune marge */
+        display: flex; /* Utilisation de Flexbox */
+        justify-content: center; /* Alignement horizontal au centre */
+        align-items: center; /* Alignement vertical au centre */
+    }
+    
+    /* Styles pour les éléments de liste à l'intérieur de la classe "menu" */
+    .menu ul li {
+        display: inline; /* Affichage en ligne */
+        margin-right: 5%; /* Marge à droite de 5% */
+    }
+    
+    /* Styles pour les liens à l'intérieur des éléments de liste à l'intérieur de la classe "menu" */
+    .menu ul li a {
+        color: #274c5b; /* Couleur du texte noire */
+        text-decoration: none; /* Suppression du soulignement */
+        font-weight: bold; /* Police en gras */
+        font-size: 20px;
+    }
+    
+    /* Styles pour les liens au survol à l'intérieur des éléments de liste à l'intérieur de la classe "menu" */
+    .menu ul li a:hover {
+        color: #efd372; /* Changement de couleur au survol */
+    }
+
+
+    #section-2 {
+        width: 99%;
+        height: 75vh;
+        background-image: url("404.png");
+        background-position: center; 
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-top: 3%;
+    }
+    
+    .erreur {
+        width: 40%; 
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+
+    .grand-gras {
+        width:  60%;
+        height:  40%;
+        font-size: 200px;
+        font-weight: bold;
+        color: #8FA8A8;
+        margin-bottom: 5%;
+    }
+
+    .gras {
+        width: 90%;
+        height: 15%;
+        font-size: 60px;
+        font-weight: bold;
+        color: #274C5B;
+        margin-bottom: 2%;
+    }
+
+    .petit {
+        padding-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .boutton {
+        width: 30%;
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%; 
+        border-radius: 5%;
+        cursor: pointer; 
+        background-color: #274c5b;
+    }
+
+    .boutton:hover {
+        background-color: #EFD372;
+    }
+    
+    .acceuil {
+        color: white;
+        font-size: 15px;    
+        font-weight: bold; 
+    }
+    .boutton:hover .acceuil  {
+        color: #274c5b; 
+    }
+
+    .fleche {
+        width: 10%; 
+        height: aute; 
+        border-radius: 50%;
+        background-color: white ; 
+
+    }
+    .fleche img {
+        width: 100%;
+        height:  auto;
+    }
+
+
+    #section-3 {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .information {
+        width: 50%;
+        height: 80%;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .parti-contact {
+        width: 50%;
+        height: 80%;
+        border-right: #F1F1F1 solid 10px;   
+    }
+
+    .info {
+        width: 80%;
+        text-align: right;
+    }
+    .contact {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+
+    .titre {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 8%;
+    }
+    .E {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .compte {
+        width: 30%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .L-O {
+        width: 65%;
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+    .petit-logo {
+        width: 25%;
+        height: 65%;
+    }
+    .petit-logo IMG {
+        width: 100%;
+        height: 100%;
+    }
+    .petit-Organick {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .petit-bas {
+        width: 80%;
+        height: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20%;
+    }
+    .bas {
+        width: 20%;
+        height: 80%;
+        background-color: #EFF6F1;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pied-de-page {
+        width: 100%;
+        border-top: #F1F1F1 solid 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Copyright {
+    font-size: 25px;
+    }
